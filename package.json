@@ -1,0 +1,42 @@
+{
+  "name": "next-personal-web-app",
+  "version": "0.1.0",
+  "repository": "https://github.com/dedeard/next-personal-web-app.git",
+  "author": "dede ariansya <me@dedeard.my.id>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@formspree/react": "^2.4.4",
+    "@material-tailwind/react": "^2.1.0",
+    "@netlify/plugin-nextjs": "^4.40.0",
+    "@types/node": "20.4.5",
+    "@types/react": "18.2.16",
+    "@types/react-dom": "18.2.7",
+    "@vercel/analytics": "^1.0.1",
+    "antd": "^5.8.3",
+    "framer-motion": "^10.13.1",
+    "moment": "^2.29.4",
+    "next": "13.4.12",
+    "next-themes": "^0.2.1",
+    "nextjs-google-analytics": "^2.3.3",
+    "nextjs-progressbar": "^0.0.16",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-text-transition": "^3.1.0",
+    "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.4",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.27",
+    "prettier": "^3.0.0",
+    "prettier-plugin-tailwindcss": "^0.4.1",
+    "tailwindcss": "^3.3.3"
+  }
+}
